@@ -137,7 +137,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.9 }}
           >
-            Rodium connects visionary businesses with elite AI, no-code, and automation experts — 
+            Radxal connects visionary businesses with elite AI, no-code, and automation experts — 
             delivering flawless projects every time.
           </motion.p>
         </motion.div>

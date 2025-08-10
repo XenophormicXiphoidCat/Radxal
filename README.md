@@ -1,6 +1,6 @@
-# Rodium - Where AI Meets Talent
+# Radxal - Where AI Meets Talent
 
-A premium, dark-themed marketing website for Rodium — an AI-powered freelancer–client matchmaking platform under Xenophormic Corp.
+A premium, dark-themed marketing website for Radxal — an AI-powered freelancer–client matchmaking platform under Xenophormic Corp.
 
 ## 🚀 Features
 
@@ -23,7 +23,7 @@ A premium, dark-themed marketing website for Rodium — an AI-powered freelancer
 ## 📁 Project Structure
 
 ```
-rodium-website/
+radxal-website/
 ├── app/
 │   ├── globals.css          # Global styles and Tailwind imports
 │   ├── layout.tsx           # Root layout component
@@ -34,7 +34,7 @@ rodium-website/
 │   ├── ForClients.tsx       # Benefits for clients
 │   ├── ForFreelancers.tsx   # Benefits for freelancers
 │   ├── CaseStudies.tsx      # Success stories showcase
-│   ├── About.tsx            # About Rodium section
+│   ├── About.tsx            # About Radxal section
 │   ├── FinalCTA.tsx         # Final call-to-action section
 │   └── Footer.tsx           # Footer with links and contact
 ├── tailwind.config.js       # Tailwind CSS configuration
@@ -56,7 +56,7 @@ rodium-website/
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd rodium-website
+   cd radxal-website
    ```
 
 2. **Install dependencies**
@@ -163,9 +163,9 @@ This project is proprietary software owned by Xenophormic Corp.
 ## 🤝 Support
 
 For questions or support, contact:
-- Email: hello@rodium.ai
-- Instagram: [@rodium.ai](https://instagram.com/rodium.ai)
-- LinkedIn: [Rodium AI](https://linkedin.com/company/rodium-ai)
+- Email: hello@radxal.ai
+- Instagram: [@radxal.ai](https://instagram.com/radxal.ai)
+- LinkedIn: [Radxal AI](https://linkedin.com/company/radxal-ai)
 
 ---
 

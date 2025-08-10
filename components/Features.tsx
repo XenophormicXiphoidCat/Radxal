@@ -108,7 +108,7 @@ const Features = () => {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
-            Why Choose Rodium?
+            Why Choose Radxal?
             {/* Subtle glow effect */}
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-white/10 via-white/5 to-white/10 opacity-0 blur-lg"

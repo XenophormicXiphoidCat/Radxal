@@ -86,7 +86,7 @@ const About = () => {
             animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           >
-            About Rodium
+            About Radxal
             {/* Enhanced glow effect */}
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-white/15 via-white/8 to-white/15 opacity-0 blur-xl"
@@ -148,7 +148,7 @@ const About = () => {
               animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
               transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
             >
-              Rodium is revolutionizing how businesses connect with AI, no-code, and automation experts. 
+              Radxal is revolutionizing how businesses connect with AI, no-code, and automation experts. 
               We believe that every company deserves access to world-class talent, regardless of their size or location.
             </motion.p>
             

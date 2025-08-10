@@ -49,7 +49,7 @@ const Navbar = () => {
               href="#home" 
               className="text-2xl font-bold glassmorphic-heading relative overflow-hidden"
             >
-              <span className="relative z-10">Rodium</span>
+              <span className="relative z-10">Radxal</span>
               {/* Logo glow effect */}
               <motion.div
                 className="absolute inset-0 bg-gradient-to-r from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"

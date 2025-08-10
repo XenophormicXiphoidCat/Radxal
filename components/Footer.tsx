@@ -20,7 +20,7 @@ const Footer = () => {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold glassmorphic-heading mb-2">Rodium</h3>
+            <h3 className="text-2xl font-bold glassmorphic-heading mb-2">Radxal</h3>
             <p className="text-text-secondary text-sm">An Xenophormic Corp. Non-Creation</p>
           </motion.div>
 
@@ -45,7 +45,7 @@ const Footer = () => {
               Terms
             </a>
             <a 
-              href="mailto:contact@rodium.ai" 
+                              href="mailto:contact@radxal.ai" 
               className="text-text-secondary hover:text-white/80 transition-colors duration-300"
             >
               Contact
@@ -90,7 +90,7 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <p className="text-text-secondary text-sm">
-            © 2024 Rodium. All rights reserved.
+            © 2024 Radxal. All rights reserved.
           </p>
         </motion.div>
       </div>

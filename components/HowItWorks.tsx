@@ -283,7 +283,7 @@ const HowItWorks = () => {
               ease: "easeInOut",
             }}
           >
-            Ready to get started? Join thousands of businesses already using Rodium
+            Ready to get started? Join thousands of businesses already using Radxal
           </motion.p>
         </motion.div>
       </div>
