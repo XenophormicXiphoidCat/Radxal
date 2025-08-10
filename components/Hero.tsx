@@ -109,7 +109,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            Where AI Meets Talent
+            The Fastest Way to Hire the Right AI & Automation Talent
             {/* Enhanced text glow effect */}
             <motion.div
               className="absolute inset-0 bg-gradient-to-r from-white/20 via-white/10 to-white/20 opacity-0 blur-xl"
@@ -137,8 +137,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.9 }}
           >
-            Radxal connects visionary businesses with elite AI, no-code, and automation experts — 
-            delivering flawless projects every time.
+            Radxal's intelligent matchmaking connects visionary businesses with elite automation and no-code experts — matched in 24 hours, delivered with flawless precision.
           </motion.p>
         </motion.div>
 
