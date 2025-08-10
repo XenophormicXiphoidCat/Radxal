@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-      {/* Updated hero section with responsive fonts */}
+      {/* Updated hero section with responsive fonts - ready for deployment */}
       {/* Enhanced background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-primary-800/20 to-primary-950/40"></div>
       
