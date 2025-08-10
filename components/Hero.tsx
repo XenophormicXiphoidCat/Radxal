@@ -5,6 +5,7 @@ import { motion } from 'framer-motion'
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
+      {/* Updated hero section with responsive fonts */}
       {/* Enhanced background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary-900/30 via-primary-800/20 to-primary-950/40"></div>
       
@@ -104,7 +105,7 @@ const Hero = () => {
           className="mb-8"
         >
           <motion.h1
-            className="text-6xl md:text-8xl font-bold mb-6 glassmorphic-heading relative"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 glassmorphic-heading relative"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -132,7 +133,7 @@ const Hero = () => {
           transition={{ duration: 1, delay: 0.7 }}
         >
           <motion.p
-            className="text-xl md:text-2xl text-text-secondary mb-12 max-w-4xl mx-auto leading-relaxed"
+            className="text-lg md:text-xl lg:text-2xl text-text-secondary mb-12 max-w-4xl mx-auto leading-relaxed"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.9 }}
