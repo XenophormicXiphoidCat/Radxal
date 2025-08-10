@@ -96,42 +96,7 @@ const Navbar = () => {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <motion.div
-            className="hidden md:block"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.6, delay: 0.4, ease: "easeOut" }}
-          >
-            <motion.button 
-              className="relative px-8 py-3 rounded-xl font-semibold text-white overflow-hidden group"
-              whileHover={{ scale: 1.05, y: -2 }}
-              whileTap={{ scale: 0.98 }}
-              transition={{ duration: 0.2 }}
-            >
-              {/* Button background */}
-              <div className="absolute inset-0 bg-gradient-to-r from-white/15 to-white/10 rounded-xl backdrop-blur-sm border border-white/20"></div>
-              
-              {/* Hover glow effect */}
-              <motion.div
-                className="absolute inset-0 bg-gradient-to-r from-white/20 to-white/10 rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                initial={{ scale: 0.8 }}
-                whileHover={{ scale: 1.1 }}
-                transition={{ duration: 0.3 }}
-              />
-              
-              {/* Button text */}
-              <span className="relative z-10">Get Started</span>
-              
-              {/* Shimmer effect */}
-              <motion.div
-                className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                initial={{ x: -100 }}
-                whileHover={{ x: 100 }}
-                transition={{ duration: 0.8, ease: "easeInOut" }}
-              />
-            </motion.button>
-          </motion.div>
+
 
           {/* Mobile Menu Button */}
           <motion.button
@@ -193,28 +158,7 @@ const Navbar = () => {
                   </motion.a>
                 ))}
                 
-                <motion.button
-                  className="w-full mt-6 relative px-6 py-3 rounded-xl font-semibold text-white overflow-hidden group"
-                  initial={{ opacity: 0, x: -20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.3, delay: 0.4 }}
-                  whileHover={{ scale: 1.02 }}
-                  whileTap={{ scale: 0.98 }}
-                >
-                  {/* Mobile button background */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-white/15 to-white/10 rounded-xl backdrop-blur-sm border border-white/20"></div>
-                  
-                  {/* Mobile button text */}
-                  <span className="relative z-10">Get Started</span>
-                  
-                  {/* Mobile button shimmer */}
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"
-                    initial={{ x: -100 }}
-                    whileHover={{ x: 100 }}
-                    transition={{ duration: 0.8, ease: "easeInOut" }}
-                  />
-                </motion.button>
+
               </div>
             </motion.div>
           )}
